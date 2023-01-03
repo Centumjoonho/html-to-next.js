@@ -35,15 +35,20 @@ export default function Home() {
         />
         <link rel="icon" href="images/favicon.png" type="image/x-icon" />
         <meta name="msapplication-TileImage" content="images/favicon.png" />
-        <Script src="http://code.jquery.com/jquery-latest.js"></Script>
-        <Script src="http://code.jquery.com/jquery-3.5.1.min.js"></Script>
-        <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-          integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
-        ></Script>
       </Head>
+      <Script src="js/jquery.js"></Script>
+      <Script src="js/popper.min.js"></Script>
+      <Script src="js/bootstrap.min.js"></Script>
+      <Script src="js/jquery.mCustomScrollbar.concat.min.js"></Script>
+      <Script src="js/jquery.fancybox.js"></Script>
+      <Script src="js/appear.js"></Script>
+      <Script src="js/owl.js"></Script>
+      <Script src="js/wow.js"></Script>
+      <Script src="js/parallax.min.js"></Script>
+      <Script src="js/tilt.jquery.min.js"></Script>
+      <Script src="js/jquery.paroller.min.js"></Script>
+      <Script src="js/jquery-ui.js"></Script>
+      <Script src="js/script.js"></Script>
 
       <div className="page-wrapper">
         {/* Main Header*/}
@@ -1489,20 +1494,6 @@ export default function Home() {
         {/* End Main Footer */}
       </div>
       {/*End pagewrapper*/}
-
-      <Script src="js/jquery.js"></Script>
-      <Script src="js/popper.min.js"></Script>
-      <Script src="js/bootstrap.min.js"></Script>
-      <Script src="js/jquery.mCustomScrollbar.concat.min.js"></Script>
-      <Script src="js/jquery.fancybox.js"></Script>
-      <Script src="js/appear.js"></Script>
-      <Script src="js/owl.js"></Script>
-      <Script src="js/wow.js"></Script>
-      <Script src="js/parallax.min.js"></Script>
-      <Script src="js/tilt.jquery.min.js"></Script>
-      <Script src="js/jquery.paroller.min.js"></Script>
-      <Script src="js/jquery-ui.js"></Script>
-      <Script src="js/script.js"></Script>
     </>
   );
 }
