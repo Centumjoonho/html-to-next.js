@@ -3,13 +3,14 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import React from "react";
 import Script from "next/script";
+// import jQuery from "jquery";
 
 export default function Home() {
   return (
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <title>Archo - Architecture &amp; Interior HTML Template</title>
+        <title>Centumjoonho &amp; Interior HTML Template</title>
         <meta
           name="description"
           content="Archo is a beautifully unique Architecture & Interior HTML Template. It is a great choice for any type of architecture or construction-related company"
@@ -35,22 +36,14 @@ export default function Home() {
         />
         <link rel="icon" href="images/favicon.png" type="image/x-icon" />
         <meta name="msapplication-TileImage" content="images/favicon.png" />
-        <Script src="http://code.jquery.com/jquery-latest.js"></Script>
-        <Script src="http://code.jquery.com/jquery-3.5.1.min.js"></Script>
       </Head>
+      <Script src="http://code.jquery.com/jquery-latest.js"></Script>
+      <Script src="http://code.jquery.com/jquery-3.5.1.min.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></Script>
       <Script src="js/jquery.js"></Script>
       <Script src="js/popper.min.js"></Script>
-      <Script src="js/bootstrap.min.js"></Script>
-      <Script src="js/jquery.mCustomScrollbar.concat.min.js"></Script>
-      <Script src="js/jquery.fancybox.js"></Script>
-      <Script src="js/appear.js"></Script>
-      <Script src="js/owl.js"></Script>
       <Script src="js/wow.js"></Script>
       <Script src="js/parallax.min.js"></Script>
-      <Script src="js/tilt.jquery.min.js"></Script>
-      <Script src="js/jquery.paroller.min.js"></Script>
-      <Script src="js/jquery-ui.js"></Script>
-      <Script src="js/script.js"></Script>
 
       <div className="page-wrapper">
         {/* Main Header*/}
