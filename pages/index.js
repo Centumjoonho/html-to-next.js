@@ -37,12 +37,12 @@ export default function Home() {
         <meta name="msapplication-TileImage" content="images/favicon.png" />
         <Script src="http://code.jquery.com/jquery-latest.js"></Script>
         <Script src="http://code.jquery.com/jquery-3.5.1.min.js"></Script>
-        <Script
+        {/* <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
           integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
-        ></Script>
+        ></Script> */}
       </Head>
 
       <div className="page-wrapper">
@@ -123,14 +123,6 @@ export default function Home() {
                 </div>
                 {/* Outer Box */}
                 <div className="outer-box clearfix">
-                  <ul className="language-list">
-                    <li>
-                      <a href="#">End</a>
-                    </li>
-                    <li>
-                      <a href="#">Fra</a>
-                    </li>
-                  </ul>
                   {/* Mobile Navigation Toggler */}
                   <div className="mobile-nav-toggler">
                     menu <span className="icon ion-android-menu" />
@@ -161,132 +153,7 @@ export default function Home() {
         </header>
         {/*End Main Header */}
         {/* Banner Section */}
-        <section className="banner-section">
-          <div className="main-slider-carousel owl-carousel owl-theme">
-            <div
-              className="slide"
-              style={{
-                backgroundImage: "url(images/main-slider/image-1.jpg)",
-              }}
-            >
-              <div className="auto-container">
-                {/* Content Boxed */}
-                <div className="content-boxed">
-                  <div className="inner-boxed">
-                    <div className="title">Residence</div>
-                    <h1>
-                      Dustin Villa, <br /> Spain{" "}
-                      <span>
-                        <i>completed</i> 2017
-                      </span>
-                    </h1>
-                    <p>
-                      Combine with ideas of owner, Dustin Mahone. <br />{" "}
-                      Arquito’s team completed a super villa with many powerful
-                      features, <br /> help owner really enjoy his life beside
-                      the beach
-                    </p>
-                    <div className="btn-box">
-                      <a href="about.html" className="see-projects">
-                        See project
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="slide"
-              style={{
-                backgroundImage: "url(images/main-slider/image-1.jpg)",
-              }}
-            >
-              <div className="auto-container">
-                {/* Content Boxed */}
-                <div className="content-boxed">
-                  <div className="inner-boxed">
-                    <div className="title">Residence</div>
-                    <h1>
-                      Dustin Villa, <br /> Spain{" "}
-                      <span>
-                        <i>completed</i> 2017
-                      </span>
-                    </h1>
-                    <p>
-                      Combine with ideas of owner, Dustin Mahone. <br />{" "}
-                      Arquito’s team completed a super villa with many powerful
-                      features, <br /> help owner really enjoy his life beside
-                      the beach
-                    </p>
-                    <div className="btn-box">
-                      <a href="about.html" className="see-projects">
-                        See project
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="slide"
-              style={{
-                backgroundImage: "url(images/main-slider/image-1.jpg)",
-              }}
-            >
-              <div className="auto-container">
-                {/* Content Boxed */}
-                <div className="content-boxed">
-                  <div className="inner-boxed">
-                    <div className="title">Residence</div>
-                    <h1>
-                      Dustin Villa, <br /> Spain{" "}
-                      <span>
-                        <i>completed</i> 2017
-                      </span>
-                    </h1>
-                    <p>
-                      Combine with ideas of owner, Dustin Mahone. <br />{" "}
-                      Arquito’s team completed a super villa with many powerful
-                      features, <br /> help owner really enjoy his life beside
-                      the beach
-                    </p>
-                    <div className="btn-box">
-                      <a href="about.html" className="see-projects">
-                        See project
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*Scroll Dwwn Btn*/}
-          <div
-            className="mouse-btn-down scroll-to-target"
-            data-target=".experiance-section"
-          >
-            <div className="chevron" />
-            <div className="chevron" />
-            <div className="chevron" />
-          </div>
-          {/* Social Box */}
-          <ul className="social-box">
-            <li>
-              <a href="#" className="ion-social-twitter" />
-            </li>
-            <li>
-              <a href="#" className="ion-social-facebook" />
-            </li>
-            <li>
-              <a href="#" className="fab fa-behance" />
-            </li>
-          </ul>
-          {/* Info */}
-          <div className="info">
-            <a href="tel:+068-5568-48-34">(+068) 5568 48 34</a> /{" "}
-            <a href="tel:+hello@archo.co">hello@archo.co</a>
-          </div>
-        </section>
+        <section className="banner-section">{/*  */}</section>
         {/* End Banner Section */}
         {/* Experiance Section */}
         <section className="experiance-section">
